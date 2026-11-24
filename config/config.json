@@ -1,0 +1,14 @@
+{
+  "base_url": "https://hapi.fhir.org/baseR4",
+  "table_schema": "dbo",
+  "raw_root": "Files/raw",
+  "page_size": 100,
+  "initial_lookback_days": 3,
+  "watermark_overlap_minutes": 10,
+  "resources": [
+    "Patient",
+    "Encounter",
+    "Observation",
+    "Condition"
+  ]
+}
